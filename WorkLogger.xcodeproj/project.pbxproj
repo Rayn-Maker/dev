@@ -13,6 +13,24 @@
 		682E0E3B1FCF211700A1763C /* WorkLogger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 682E0E391FCF211700A1763C /* WorkLogger.xcdatamodeld */; };
 		682E0E3D1FCF211700A1763C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682E0E3C1FCF211700A1763C /* Assets.xcassets */; };
 		682E0E401FCF211700A1763C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682E0E3E1FCF211700A1763C /* LaunchScreen.storyboard */; };
+		682E0E491FCF291400A1763C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 682E0E481FCF291400A1763C /* GoogleService-Info.plist */; };
+		682E0E571FCF301300A1763C /* WorkersAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E0E561FCF301300A1763C /* WorkersAvailability.swift */; };
+		682E0E591FCF301C00A1763C /* WorkerLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E0E581FCF301C00A1763C /* WorkerLogs.swift */; };
+		682E0E5B1FCF302800A1763C /* UploadSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E0E5A1FCF302800A1763C /* UploadSampleViewController.swift */; };
+		682E0E5D1FCF302E00A1763C /* WorkersTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E0E5C1FCF302E00A1763C /* WorkersTabVC.swift */; };
+		682E0E5F1FCF303800A1763C /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E0E5E1FCF303800A1763C /* SignIn.swift */; };
+		682E0E611FCF304100A1763C /* sampleURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E0E601FCF304100A1763C /* sampleURLSession.swift */; };
+		682E0E631FCF304700A1763C /* delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E0E621FCF304700A1763C /* delete.swift */; };
+		682E0E651FCF305700A1763C /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E0E641FCF305700A1763C /* NetworkingService.swift */; };
+		682E0E671FCF305F00A1763C /* GetWorkersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E0E661FCF305F00A1763C /* GetWorkersResponse.swift */; };
+		682E0E691FCF306A00A1763C /* MyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E0E681FCF306A00A1763C /* MyError.swift */; };
+		682E0E6B1FCF308700A1763C /* RaWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E0E6A1FCF308700A1763C /* RaWorker.swift */; };
+		682E0E6D1FCF34B200A1763C /* RAs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E0E6C1FCF34B100A1763C /* RAs.swift */; };
+		682E0E6F1FCF393C00A1763C /* deletples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E0E6E1FCF393C00A1763C /* deletples.swift */; };
+		682E0E711FCF3AD600A1763C /* workersavailabiltyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E0E701FCF3AD600A1763C /* workersavailabiltyVC.swift */; };
+		682E0E731FCF409500A1763C /* workerlogsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E0E721FCF409500A1763C /* workerlogsVC.swift */; };
+		682E0E751FCF47F500A1763C /* audioUploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E0E741FCF47F500A1763C /* audioUploadVC.swift */; };
+		E38D1D7C09FAC6C80CE4756C /* Pods_WorkLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5668E255D622A61B0F8B4D /* Pods_WorkLogger.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +42,26 @@
 		682E0E3C1FCF211700A1763C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		682E0E3F1FCF211700A1763C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		682E0E411FCF211700A1763C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		682E0E481FCF291400A1763C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		682E0E561FCF301300A1763C /* WorkersAvailability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkersAvailability.swift; sourceTree = "<group>"; };
+		682E0E581FCF301C00A1763C /* WorkerLogs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkerLogs.swift; sourceTree = "<group>"; };
+		682E0E5A1FCF302800A1763C /* UploadSampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadSampleViewController.swift; sourceTree = "<group>"; };
+		682E0E5C1FCF302E00A1763C /* WorkersTabVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkersTabVC.swift; sourceTree = "<group>"; };
+		682E0E5E1FCF303800A1763C /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		682E0E601FCF304100A1763C /* sampleURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sampleURLSession.swift; sourceTree = "<group>"; };
+		682E0E621FCF304700A1763C /* delete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = delete.swift; sourceTree = "<group>"; };
+		682E0E641FCF305700A1763C /* NetworkingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		682E0E661FCF305F00A1763C /* GetWorkersResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetWorkersResponse.swift; sourceTree = "<group>"; };
+		682E0E681FCF306A00A1763C /* MyError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyError.swift; sourceTree = "<group>"; };
+		682E0E6A1FCF308700A1763C /* RaWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaWorker.swift; sourceTree = "<group>"; };
+		682E0E6C1FCF34B100A1763C /* RAs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAs.swift; sourceTree = "<group>"; };
+		682E0E6E1FCF393C00A1763C /* deletples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deletples.swift; sourceTree = "<group>"; };
+		682E0E701FCF3AD600A1763C /* workersavailabiltyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workersavailabiltyVC.swift; sourceTree = "<group>"; };
+		682E0E721FCF409500A1763C /* workerlogsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workerlogsVC.swift; sourceTree = "<group>"; };
+		682E0E741FCF47F500A1763C /* audioUploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioUploadVC.swift; sourceTree = "<group>"; };
+		7F6487216136B301DD01C657 /* Pods-WorkLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkLogger.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkLogger/Pods-WorkLogger.release.xcconfig"; sourceTree = "<group>"; };
+		8A5668E255D622A61B0F8B4D /* Pods_WorkLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3FE22B7BCC1E2755159A00 /* Pods-WorkLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkLogger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkLogger/Pods-WorkLogger.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E38D1D7C09FAC6C80CE4756C /* Pods_WorkLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40E170A03397B56EC26EB619 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA3FE22B7BCC1E2755159A00 /* Pods-WorkLogger.debug.xcconfig */,
+				7F6487216136B301DD01C657 /* Pods-WorkLogger.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		682E0E261FCF211700A1763C = {
 			isa = PBXGroup;
 			children = (
 				682E0E311FCF211700A1763C /* WorkLogger */,
 				682E0E301FCF211700A1763C /* Products */,
+				40E170A03397B56EC26EB619 /* Pods */,
+				BFBF358922A3847F126B3516 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +106,56 @@
 		682E0E311FCF211700A1763C /* WorkLogger */ = {
 			isa = PBXGroup;
 			children = (
+				682E0E551FCF2FEC00A1763C /* vc */,
+				682E0E541FCF2FAF00A1763C /* network gorups */,
 				682E0E321FCF211700A1763C /* AppDelegate.swift */,
 				682E0E341FCF211700A1763C /* ViewController.swift */,
 				682E0E361FCF211700A1763C /* Main.storyboard */,
 				682E0E3C1FCF211700A1763C /* Assets.xcassets */,
 				682E0E3E1FCF211700A1763C /* LaunchScreen.storyboard */,
+				682E0E481FCF291400A1763C /* GoogleService-Info.plist */,
 				682E0E411FCF211700A1763C /* Info.plist */,
 				682E0E391FCF211700A1763C /* WorkLogger.xcdatamodeld */,
 			);
 			path = WorkLogger;
+			sourceTree = "<group>";
+		};
+		682E0E541FCF2FAF00A1763C /* network gorups */ = {
+			isa = PBXGroup;
+			children = (
+				682E0E641FCF305700A1763C /* NetworkingService.swift */,
+				682E0E661FCF305F00A1763C /* GetWorkersResponse.swift */,
+				682E0E6A1FCF308700A1763C /* RaWorker.swift */,
+				682E0E6C1FCF34B100A1763C /* RAs.swift */,
+				682E0E681FCF306A00A1763C /* MyError.swift */,
+			);
+			name = "network gorups";
+			sourceTree = "<group>";
+		};
+		682E0E551FCF2FEC00A1763C /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				682E0E5E1FCF303800A1763C /* SignIn.swift */,
+				682E0E561FCF301300A1763C /* WorkersAvailability.swift */,
+				682E0E581FCF301C00A1763C /* WorkerLogs.swift */,
+				682E0E5A1FCF302800A1763C /* UploadSampleViewController.swift */,
+				682E0E6E1FCF393C00A1763C /* deletples.swift */,
+				682E0E701FCF3AD600A1763C /* workersavailabiltyVC.swift */,
+				682E0E721FCF409500A1763C /* workerlogsVC.swift */,
+				682E0E741FCF47F500A1763C /* audioUploadVC.swift */,
+				682E0E5C1FCF302E00A1763C /* WorkersTabVC.swift */,
+				682E0E601FCF304100A1763C /* sampleURLSession.swift */,
+				682E0E621FCF304700A1763C /* delete.swift */,
+			);
+			name = vc;
+			sourceTree = "<group>";
+		};
+		BFBF358922A3847F126B3516 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A5668E255D622A61B0F8B4D /* Pods_WorkLogger.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 682E0E441FCF211700A1763C /* Build configuration list for PBXNativeTarget "WorkLogger" */;
 			buildPhases = (
+				407B6C23E4359C6710FAF0CD /* [CP] Check Pods Manifest.lock */,
 				682E0E2B1FCF211700A1763C /* Sources */,
 				682E0E2C1FCF211700A1763C /* Frameworks */,
 				682E0E2D1FCF211700A1763C /* Resources */,
+				22BE1E248D9FB5C9C5AECFAE /* [CP] Embed Pods Frameworks */,
+				3FEDD92A37C493BA77C42908 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				682E0E401FCF211700A1763C /* LaunchScreen.storyboard in Resources */,
+				682E0E491FCF291400A1763C /* GoogleService-Info.plist in Resources */,
 				682E0E3D1FCF211700A1763C /* Assets.xcassets in Resources */,
 				682E0E381FCF211700A1763C /* Main.storyboard in Resources */,
 			);
@@ -134,14 +229,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22BE1E248D9FB5C9C5AECFAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WorkLogger/Pods-WorkLogger-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkLogger/Pods-WorkLogger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FEDD92A37C493BA77C42908 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WorkLogger/Pods-WorkLogger-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkLogger/Pods-WorkLogger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		407B6C23E4359C6710FAF0CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkLogger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		682E0E2B1FCF211700A1763C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				682E0E6D1FCF34B200A1763C /* RAs.swift in Sources */,
+				682E0E751FCF47F500A1763C /* audioUploadVC.swift in Sources */,
+				682E0E571FCF301300A1763C /* WorkersAvailability.swift in Sources */,
 				682E0E351FCF211700A1763C /* ViewController.swift in Sources */,
+				682E0E5D1FCF302E00A1763C /* WorkersTabVC.swift in Sources */,
+				682E0E611FCF304100A1763C /* sampleURLSession.swift in Sources */,
+				682E0E5B1FCF302800A1763C /* UploadSampleViewController.swift in Sources */,
+				682E0E591FCF301C00A1763C /* WorkerLogs.swift in Sources */,
+				682E0E731FCF409500A1763C /* workerlogsVC.swift in Sources */,
+				682E0E711FCF3AD600A1763C /* workersavailabiltyVC.swift in Sources */,
+				682E0E631FCF304700A1763C /* delete.swift in Sources */,
+				682E0E671FCF305F00A1763C /* GetWorkersResponse.swift in Sources */,
 				682E0E3B1FCF211700A1763C /* WorkLogger.xcdatamodeld in Sources */,
+				682E0E651FCF305700A1763C /* NetworkingService.swift in Sources */,
+				682E0E6B1FCF308700A1763C /* RaWorker.swift in Sources */,
+				682E0E6F1FCF393C00A1763C /* deletples.swift in Sources */,
 				682E0E331FCF211700A1763C /* AppDelegate.swift in Sources */,
+				682E0E691FCF306A00A1763C /* MyError.swift in Sources */,
+				682E0E5F1FCF303800A1763C /* SignIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,11 +454,13 @@
 		};
 		682E0E451FCF211700A1763C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3FE22B7BCC1E2755159A00 /* Pods-WorkLogger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F2B5QD97WH;
 				INFOPLIST_FILE = WorkLogger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ray.WorkLogger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,11 +471,13 @@
 		};
 		682E0E461FCF211700A1763C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F6487216136B301DD01C657 /* Pods-WorkLogger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F2B5QD97WH;
 				INFOPLIST_FILE = WorkLogger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ray.WorkLogger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
